@@ -1,0 +1,12 @@
+*.pyc
+*.old
+*.pdf
+*.log
+*.zip
+*.pvd
+*.vtu
+*#
+firedrake.json
+tmp/*
+output/*
+.*
