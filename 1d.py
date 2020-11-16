@@ -52,7 +52,7 @@ def swe(N=200,M=100,T=1.,M_length=1,degree=1,inum=1,bnum=1):
 
     #Set up solver
     uprob = NonlinearVariationalProblem(F, w1)
-    tol = 1e-6
+    tol = 1e-12
     sparameters = {'mat_type': 'aij',
                    'ksp_type': 'preonly',
                    'pc_type': 'lu',
