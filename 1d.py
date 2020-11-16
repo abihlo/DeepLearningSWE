@@ -80,6 +80,8 @@ def swe(N=200,M=100,T=1.,M_length=1,degree=1,inum=1,bnum=1):
 
     #Define spatial vector
     x_vec = mesh.coordinates.dat.data
+    #Remove duplicate values (caused by periodic mesh)
+    x_vec = np.unique(x_vec)
     
     #Initialise temporal vector
     t_vec = [0]
