@@ -6,7 +6,6 @@
 *.pvd
 *.vtu
 *#
-firedrake.json
-tmp/*
-output/*
+*/tmp/*
+*/output/*
 .*
